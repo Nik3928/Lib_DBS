@@ -33,4 +33,5 @@ class Utils:
 
     @staticmethod
     def gen_lc_number():
+        """ Generates 8digit library card number """
         return random.randint(10000000, 99999999)

@@ -14,9 +14,11 @@ class Login(AbstractView):
 
     @property
     def controls(self):
+        """ :returns controls in view"""
         return self._controls
 
     def build(self):
+        """ :returns view object """
         return ft.View(
             "/",
             self.controls,
